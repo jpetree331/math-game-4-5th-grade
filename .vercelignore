@@ -1,0 +1,7 @@
+# The Express API is hosted separately (Railway). Keep it out of the static Vercel site.
+backend/
+build.sh
+setup-env.sh
+netlify.toml
+config.template.js
+config.example.js
