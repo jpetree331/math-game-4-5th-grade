@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "",
-  "installCommand": ""
+  "installCommand": "",
+  "buildCommand": "mkdir -p public && cp index.html script.js styles.css Nyan-Cat.mp3 error-win.mp3 nyan-cat-rainbow.gif public/",
+  "outputDirectory": "public"
 }
